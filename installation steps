@@ -1,0 +1,10 @@
+1.	Launch EC2 instance
+2.	Install java
+1.	sudo yum install java-17-amazon-corretto-devel -y
+3.	Install jenkins
+1.	sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo
+2.	sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key
+3.	sudo yum install jenkins -y
+4.	sudo systemctl start jenkins
+5.	sudo systemctl status jenkins
+6.	Initial configuration of Jenkins
